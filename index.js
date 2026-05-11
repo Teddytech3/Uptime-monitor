@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const HOST = '0.0.0.0';
 
-const urls = (process.env.RENDER_APP_URL || "https://teddy-xmdmini.onrender.com")
+const urls = (process.env.RENDER_APP_URL || "https://teddyxmdotpbot-e8e2b711acb3.herokuapp.com/")
   .split(",")
   .map(u => u.trim())
   .filter(u => u.length > 0);
